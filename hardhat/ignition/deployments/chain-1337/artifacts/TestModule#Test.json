@@ -1,0 +1,63 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "Test",
+  "sourceName": "contracts/test.sol",
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "a",
+          "type": "uint256"
+        }
+      ],
+      "name": "changeA",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "a",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "callTest",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "num",
+          "type": "uint256"
+        }
+      ],
+      "name": "sendTest",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b5060fc8061001f6000396000f3fe6080604052348015600f57600080fd5b5060043610603c5760003560e01c80630dbe671f14604157806321615e9c14605b578063b0be980d146062575b600080fd5b604960005481565b60405190815260200160405180910390f35b6000546049565b6071606d36600460ae565b6073565b005b60008190556040518181527ffcbfcc71b9401277e7e60228ce2d7c1ea374ec6ef1ef20e556c25b9612bb0e9b9060200160405180910390a150565b60006020828403121560bf57600080fd5b503591905056fea26469706673582212205520788c0483989f931a2fbd9d36926375c1a97a02722b4fd631206b45901aae64736f6c63430008180033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b5060043610603c5760003560e01c80630dbe671f14604157806321615e9c14605b578063b0be980d146062575b600080fd5b604960005481565b60405190815260200160405180910390f35b6000546049565b6071606d36600460ae565b6073565b005b60008190556040518181527ffcbfcc71b9401277e7e60228ce2d7c1ea374ec6ef1ef20e556c25b9612bb0e9b9060200160405180910390a150565b60006020828403121560bf57600080fd5b503591905056fea26469706673582212205520788c0483989f931a2fbd9d36926375c1a97a02722b4fd631206b45901aae64736f6c63430008180033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
